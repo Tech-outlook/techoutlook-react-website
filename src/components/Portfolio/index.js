@@ -19,9 +19,9 @@ const Portfolio = () => {
         Object.keys(getData).map((key) => (
           <div className="cards" key={getData[key].id}>
             <img
-              src={getData[key].Image_source_url}
+              src="https://drive.google.com/file/d/1FKIEQyVn9AzSM9mYQDz91cj_aqrokoH3/view?usp=sharing"
               className="content"
-              alt={getData[key].title}
+              alt="images"
             />
             <div>
               <h1>{getData[key].title}</h1>
