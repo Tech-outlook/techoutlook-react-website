@@ -1,68 +1,26 @@
 .Portfolio {
-  min-height: 90vh;
-  padding-top: 10vh;
-  background: lightgoldenrodyellow;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.cards {
-  border: 2px solid goldenrod;
-  margin: 10px;
-  padding: 0px 5px;
-  width: 450px;
-  height: 300px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-.contant {
-  height: 70%;
   width: 100%;
-  border: 1px solid red;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px 20px;
+  padding-top: 100px;
+  padding-left: 60px;
 }
-.cards div {
-  width: 100%;
-  height: 15%;
-  padding: 0px 10px;
+.post{
   border-radius: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: lightgoldenrodyellow;
-}
-.cards h1 {
-  color: red;
-  font-size: 18px;
-  font-weight: bold;
-}
-.cards button {
-  border: 0px;
-  background: red;
-  color: white;
-  font-family: "Roboto";
-  padding: 5px 10px;
-  border-radius: 3px;
-  outline: none;
-  cursor: pointer;
-}
-.cards button:hover {
-  background: green;
-  color: white;
+
+  height: 250px;
+  width: 400px;
+  margin: 10px;
+  border: 1px solid green;
 }
 
-@media (max-width: 858px) {
-  .cards {
-    width: 530px;
-    height: 300px;
-  }
-  .cards h1 {
-    font-size: 15px;
-  }
-  .cards button {
-    font-size: 12px;
+@media (max-width: 785px){
+  .Portfolio{
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    padding-top: 100px;
   }
 }

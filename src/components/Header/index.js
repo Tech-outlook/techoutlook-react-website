@@ -5,7 +5,7 @@ import "./style.css";
 class Header extends Component {
   render() {
     return (
-      <nav>
+      <nav className="fixed-top">
         <input type="checkbox" id="check" />
         <label htmlFor="check" className="checkbtn">
           <i className="fas fa-bars"></i>

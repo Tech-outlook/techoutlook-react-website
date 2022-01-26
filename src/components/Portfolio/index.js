@@ -17,18 +17,11 @@ const Portfolio = () => {
     <div className="Portfolio">
       {getData &&
         Object.keys(getData).map((key) => (
-          <div className="cards" key={getData[key].id}>
+          <div className="post" key={getData[key].id}>
             <img
-              src="https://drive.google.com/file/d/1FKIEQyVn9AzSM9mYQDz91cj_aqrokoH3/view?usp=sharing"
-              className="content"
-              alt="images"
+              src={getData[key].Image_source_url}
+              alt={getData[key].title}
             />
-            <div>
-              <h1>{getData[key].title}</h1>
-              <a href={getData[key].Source_code_link}>
-                <button>Source Code</button>
-              </a>
-            </div>
           </div>
         ))}
     </div>

@@ -27,11 +27,12 @@ label.logo {
   color: gold;
   background: black;
   font-family: "Bree serif";
-  font-size: 35px;
-  line-height: 80px;
+  font-size: 30px;
+  line-height: 50px;
   padding: 5px 10px;
   border-radius: 5px;
   margin: 0px 60px;
+  margin-top: 10px !important;
   font-weight: bold;
 }
 nav ul {
@@ -50,6 +51,7 @@ nav ul li a {
   padding: 7px 13px;
   border-radius: 3px;
   font-family: "Bree serif";
+  text-decoration: none;
 }
 a:hover {
   background: #171c24;
