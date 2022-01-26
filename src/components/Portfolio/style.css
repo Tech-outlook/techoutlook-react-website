@@ -37,6 +37,7 @@
 .post div h4{
   margin-top: 6px;
   font-family: "Bree serif";
+  font-size: auto;
 }
 
 @media (max-width: 785px){
