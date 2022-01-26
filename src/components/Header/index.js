@@ -7,10 +7,10 @@ class Header extends Component {
     return (
       <nav>
         <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
+        <label htmlFor="check" className="checkbtn">
+          <i className="fas fa-bars"></i>
         </label>
-        <label class="logo">Tech outlook</label>
+        <label className="logo">Tech outlook</label>
         <ul>
           <li>
             <Link to="../Home">Home</Link>
