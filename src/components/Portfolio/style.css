@@ -5,15 +5,13 @@
   width: 100%;
   min-height: 100vh;
   display: flex;
-  justify-content: flex-start;
-  padding: 0px 20px;
+  justify-content: center;
+  flex-wrap: wrap;
   padding-top: 100px;
-  padding-left: 60px;
 }
 .post{
   border-radius: 5px;
-
-  height: 250px;
+  height: 280px;
   width: 400px;
   margin: 10px;
   border: 1px solid green;
@@ -22,7 +20,7 @@
 }
 .post-image{
   border: 1px solid red;
-  height: 190px;
+  height: 220px;
   width: 100%;
   border-radius: 5px;
 }
@@ -34,10 +32,22 @@
   align-items: center;
   padding: 0px 5px;
 }
-.post div h4{
+.post div p{
   margin-top: 6px;
   font-family: "Bree serif";
-  font-size: auto;
+}
+.post div button{
+  background: green;
+  color: white;
+  font-family: "Bree serif";
+  border: 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.post div button:hover{
+  border-radius: 5px;
+  border: 0px;
+  outline: none !important;
 }
 
 @media (max-width: 785px){
