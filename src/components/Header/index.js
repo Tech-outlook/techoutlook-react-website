@@ -10,6 +10,7 @@ class Header extends Component {
         <label htmlFor="check" className="checkbtn">
           <i className="fas fa-bars"></i>
         </label>
+
         <label className="logo">Tech outlook</label>
         <ul>
           <li>

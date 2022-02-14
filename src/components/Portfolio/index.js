@@ -4,9 +4,14 @@ const Portfolio = () => {
   const [data, setData] = React.useState([]);
 
   React.useEffect(() => {
-    fetch("https://peppy-primacy-336610-default-rtdb.firebaseio.com/.json")
-      .then((response) => response.json())
-      .then((json) => setData(json.apidata));
+    async function fetchMyAPI() {
+      let response = await fetch(
+        "https://peppy-primacy-336610-default-rtdb.firebaseio.com/apidata.json"
+      );
+      response = await response.json();
+      setData(response);
+    }
+    fetchMyAPI();
   }, []);
   return (
     <div className="Portfolio">
